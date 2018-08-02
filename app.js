@@ -158,7 +158,7 @@ function checkforEndOfGame() {
       }      
     else if (dealerScore > 21){
         spelerWin = true;
-        gameOver = false;
+        gameOver = true;
     }
 else if (gameOver){
     if (playerScore > dealerScore){
