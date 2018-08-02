@@ -162,7 +162,7 @@ function checkforEndOfGame() {
     }
 else if (gameOver){
     if (playerScore > dealerScore){
-        player = true;
+        playerWon = true;
     } 
     else {playerWon = false;}
 }
