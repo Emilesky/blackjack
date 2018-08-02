@@ -153,18 +153,18 @@ function checkforEndOfGame() {
             }
         }
          if (playerScore > 21) {
-         gameWon = false;
+         spelerWin = false;
          gameOver = true;
       }      
     else if (dealerScore > 21){
-        gameWon = true;
+        spelerWin = true;
         gameOver = false;
     }
 else if (gameOver){
     if (playerScore > dealerScore){
-        playerWon = true;
+        spelerWin = true;
     } 
-    else {playerWon = false;}
+    else {spelerWin = false;}
 }
 }
 
