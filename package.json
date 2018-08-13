@@ -1,0 +1,31 @@
+{
+  "name": "Testapp",
+  "version": "1.0.0",
+  "description": "//Training app just to try stuff out",
+  "main": "app.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "strip-loader": "^0.1.2",
+    "webpack": "^4.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack -p"
+    
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emilesky/blackjack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emilesky/blackjack/issues"
+  },
+  "homepage": "https://github.com/Emilesky/blackjack#readme"
+}
